@@ -1,0 +1,40 @@
+/* Estilizando o contêiner de pesquisa */
+.search_conteiner {
+  background-color: #f2f2f2; /* Alterei a cor de fundo para um tom mais suave */
+  padding: 20px; /* Adicionei um preenchimento interno para espaçamento */
+  border-radius: 10px; /* Adicionei bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra para dar profundidade */
+  display: flex; /* Adicionei display flex para alinhar os itens */
+  justify-content: space-between; /* Distribui os itens uniformemente ao longo do contêiner */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+/* Estilizando o campo de entrada de pesquisa */
+.SearchInput {
+  width: 70%; /* Ajustei a largura para 70% do contêiner pai */
+  height: 50px;
+  font-size: 18px; /* Reduzi o tamanho da fonte para maior legibilidade */
+  padding: 10px; /* Adicionei um preenchimento interno para espaçamento */
+  border: none; /* Removi a borda para um visual mais limpo */
+  border-radius: 5px; /* Adicionei bordas arredondadas */
+  outline: none; /* Removi o contorno ao focar para um visual mais limpo */
+}
+
+/* Estilizando o botão de pesquisa */
+.SearchButton {
+  width: 30%; /* Defini uma largura fixa para o botão */
+  height: 50px;
+  font-size: 24px; /* Ajustei o tamanho da fonte para 24px */
+  background-color: #4caf50; /* Alterei a cor de fundo para um verde mais vibrante */
+  color: white; /* Defini a cor do texto como branco */
+  border: none; /* Removi a borda para um visual mais limpo */
+  border-radius: 5px; /* Adicionei bordas arredondadas */
+  cursor: pointer; /* Alterei o cursor para indicar que é clicável */
+  transition: background-color 0.3s ease; /* Adicionei uma transição suave de cor de fundo */
+  margin-left: 10px; /* Adicionei margem à esquerda para separação do campo de entrada */
+}
+
+/* Estilizando o efeito de hover no botão de pesquisa */
+.SearchButton:hover {
+  background-color: #45a049; /* Alterei a cor de fundo quando o mouse está sobre o botão */
+}

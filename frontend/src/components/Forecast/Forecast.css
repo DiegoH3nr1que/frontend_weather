@@ -1,0 +1,9 @@
+.ForecastConteiner {
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  bottom: 0;
+  left: 0;
+}

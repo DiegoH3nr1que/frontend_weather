@@ -1,0 +1,19 @@
+.card_conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10.28vw; /* largura do card */
+  opacity: 50%;
+  padding: 20px; /* espaçamento interno */
+  border-radius: 10px; /* bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra */
+  background-color: #afadad; /* cor de fundo */
+  margin: 0;
+  justify-content: space-around;
+}
+
+.card_conteiner h1,
+h2 {
+  margin: 5% 0;
+  padding-bottom: 15%;
+}

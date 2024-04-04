@@ -1,0 +1,39 @@
+/* Estilizando o contêiner do span */
+span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilizando a classe Cidade */
+  .Cidade {
+    margin-right: 20px; /* Reduzi o espaçamento para não ocupar muito espaço */
+  }
+  
+  /* Estilizando a classe Condicao */
+  .Condicao {
+    text-align: right; /* Alterado para alinhar o texto à direita */
+  }
+  
+  /* Estilizando o título dentro do contêiner de temperatura */
+  .TempConteiner h1 {
+    margin: 0;
+    font-size: 24px; /* Aumentei o tamanho da fonte para destacar o título */
+  }
+  
+  /* Estilizando parágrafos e títulos menores dentro do contêiner de temperatura */
+  .TempConteiner p,
+  .TempConteiner h4 {
+    margin: 5px 0; /* Adicionei espaçamento vertical entre os elementos */
+  }
+  
+  /* Estilizando o contêiner de temperatura */
+  .TempConteiner {
+    margin-top: 50px;
+    padding: 20px; /* Aumentei o preenchimento para destacar o contêiner */
+    border-radius: 10px; /* Adicionei bordas arredondadas */
+    border: 2px solid black; /* Alterei a espessura e cor da borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra para dar profundidade */
+    background-color: #f9f9f9; /* Adicionei uma cor de fundo para destacar o contêiner */
+  }
+  
